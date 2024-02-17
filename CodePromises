@@ -1,0 +1,21 @@
+<script>
+		function testes(){
+			return new Promise((resolve,rejetcted)=>{
+				const erro = true
+
+
+				if(erro){
+					rejetcted('deu ruim')
+				}else{
+
+					resolve('deu bom')
+				}
+			})
+		}
+		testes().then((res)=>{
+			alert(res)
+		}).catch(function(e){
+			alert(e)
+		})
+
+	</script>
