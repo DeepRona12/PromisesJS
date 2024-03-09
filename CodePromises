@@ -5,10 +5,10 @@
 
 
 				if(erro){
-					rejetcted('deu ruim')
+					rejetcted('Error')
 				}else{
 
-					resolve('deu bom')
+					resolve('Resolvido com sucesso!!!')
 				}
 			})
 		}
